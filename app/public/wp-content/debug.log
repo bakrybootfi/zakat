@@ -1,0 +1,58 @@
+[16-Jan-2024 13:28:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Zakat::so_status_completed(), 1 passed in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 324 and exactly 3 expected in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:146
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Zakat->so_status_completed('')
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-settings.php(643): do_action('init')
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-config.php(106): require_once('/home/mhmd/Loca...')
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-load.php(50): require_once('/home/mhmd/Loca...')
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(34): require_once('/home/mhmd/Loca...')
+#7 /home/mhmd/Local Si in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 146
+[16-Jan-2024 13:28:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function zakat::so_status_completed(), 1 passed in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 324 and exactly 3 expected in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:146
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): zakat->so_status_completed('')
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-settings.php(643): do_action('init')
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-config.php(106): require_once('/home/mhmd/Loca...')
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-load.php(50): require_once('/home/mhmd/Loca...')
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(34): require_once('/home/mhmd/Loca...')
+#7 /home/mhmd/Local Si in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 146
+[16-Jan-2024 13:28:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function zakat::so_status_completed(), 1 passed in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 324 and exactly 3 expected in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:146
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): zakat->so_status_completed('')
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-settings.php(643): do_action('init')
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-config.php(106): require_once('/home/mhmd/Loca...')
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-load.php(50): require_once('/home/mhmd/Loca...')
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-blog-header.php(13): require_once('/home/mhmd/Loca...')
+#7 /home/mhmd/Local Si in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 146
+[17-Jan-2024 06:46:26 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wpdb.php on line 1987
+[17-Jan-2024 06:46:27 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wpdb.php on line 1987
+[17-Jan-2024 06:46:28 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wpdb.php on line 1987
+[17-Jan-2024 06:53:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 06:54:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:01:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:01:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:10:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:11:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:14:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:14:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:15:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:21:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:21:45 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woo_order_status_change_custom' not found or invalid function name in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Jan-2024 07:32:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function woo_order_status_change_custom(), 1 passed in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326 and exactly 3 expected in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(287) : eval()'d code:1
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(4391)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4391, 'completed', 'refunded', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-ord in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(287) : eval()'d code on line 1
+[17-Jan-2024 07:34:04 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/lib/Doctrine/ConnectionFactory.php:85
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/lib/Doctrine/ConnectionFactory.php(45): MailPoet\Doctrine\ConnectionFactory->getDriverOptions('+00:00', 'utf8mb4', 'utf8mb4_unicode...')
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(618): MailPoet\Doctrine\ConnectionFactory->createConnection()
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(3188): MailPoetGenerated\FreeCachedContainer->getConnectionService()
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(628): MailPoetGenerated\FreeCachedContainer->getEntityManagerFactoryService()
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.ph in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/lib/Doctrine/ConnectionFactory.php on line 85

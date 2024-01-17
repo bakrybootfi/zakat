@@ -1,0 +1,85 @@
+[16-Jan-2024 11:09:59 UTC] Sync process for Gutenberg Blocks has started.
+[16-Jan-2024 11:09:59 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[16-Jan-2024 11:09:59 UTC] BLOCK: Requests count 8
+[16-Jan-2024 11:09:59 UTC] BLOCK: Importing request 1 ..
+[16-Jan-2024 11:09:59 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[16-Jan-2024 11:10:00 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[16-Jan-2024 11:10:01 UTC] BLOCK: Completed request 1
+[16-Jan-2024 11:10:01 UTC] BLOCK: Importing request 2 ..
+[16-Jan-2024 11:10:01 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[16-Jan-2024 11:10:02 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[16-Jan-2024 11:10:02 UTC] BLOCK: Completed request 2
+[16-Jan-2024 11:10:02 UTC] BLOCK: Importing request 3 ..
+[16-Jan-2024 11:10:02 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[16-Jan-2024 11:10:05 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[16-Jan-2024 11:10:06 UTC] BLOCK: Completed request 3
+[16-Jan-2024 11:10:06 UTC] BLOCK: Importing request 4 ..
+[16-Jan-2024 11:10:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[16-Jan-2024 11:10:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[16-Jan-2024 11:10:07 UTC] BLOCK: Completed request 4
+[16-Jan-2024 11:10:07 UTC] BLOCK: Importing request 5 ..
+[16-Jan-2024 11:10:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[16-Jan-2024 11:10:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[16-Jan-2024 11:10:08 UTC] BLOCK: Completed request 5
+[16-Jan-2024 11:10:08 UTC] BLOCK: Importing request 6 ..
+[16-Jan-2024 11:10:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[16-Jan-2024 11:10:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[16-Jan-2024 11:10:08 UTC] BLOCK: Completed request 6
+[16-Jan-2024 11:10:08 UTC] BLOCK: Importing request 7 ..
+[16-Jan-2024 11:10:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[16-Jan-2024 11:10:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[16-Jan-2024 11:10:10 UTC] BLOCK: Completed request 7
+[16-Jan-2024 11:10:10 UTC] BLOCK: Importing request 8 ..
+[16-Jan-2024 11:10:10 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=8&wireframe=yes
+[16-Jan-2024 11:10:10 UTC] BLOCK: Storing in option ast-block-templates-blocks-8
+[16-Jan-2024 11:10:10 UTC] BLOCK: Completed request 8
+[16-Jan-2024 11:10:10 UTC] SITE: Getting Total Sites
+[16-Jan-2024 11:10:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[16-Jan-2024 11:10:12 UTC] SITE: Request count 7
+[16-Jan-2024 11:10:12 UTC] SITE: Importing request 1 ..
+[16-Jan-2024 11:10:12 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[16-Jan-2024 11:10:12 UTC] SITE: Storing in option ast-block-templates-sites-1
+[16-Jan-2024 11:10:12 UTC] SITE: Completed request 1
+[16-Jan-2024 11:10:12 UTC] SITE: Importing request 2 ..
+[16-Jan-2024 11:10:12 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[16-Jan-2024 11:10:13 UTC] SITE: Storing in option ast-block-templates-sites-2
+[16-Jan-2024 11:10:13 UTC] SITE: Completed request 2
+[16-Jan-2024 11:10:13 UTC] SITE: Importing request 3 ..
+[16-Jan-2024 11:10:13 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[16-Jan-2024 11:10:13 UTC] SITE: Storing in option ast-block-templates-sites-3
+[16-Jan-2024 11:10:13 UTC] SITE: Completed request 3
+[16-Jan-2024 11:10:13 UTC] SITE: Importing request 4 ..
+[16-Jan-2024 11:10:13 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[16-Jan-2024 11:10:14 UTC] SITE: Storing in option ast-block-templates-sites-4
+[16-Jan-2024 11:10:14 UTC] SITE: Completed request 4
+[16-Jan-2024 11:10:14 UTC] SITE: Importing request 5 ..
+[16-Jan-2024 11:10:14 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[16-Jan-2024 11:10:14 UTC] SITE: Storing in option ast-block-templates-sites-5
+[16-Jan-2024 11:10:14 UTC] SITE: Completed request 5
+[16-Jan-2024 11:10:14 UTC] SITE: Importing request 6 ..
+[16-Jan-2024 11:10:14 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[16-Jan-2024 11:10:15 UTC] SITE: Storing in option ast-block-templates-sites-6
+[16-Jan-2024 11:10:15 UTC] SITE: Completed request 6
+[16-Jan-2024 11:10:15 UTC] SITE: Importing request 7 ..
+[16-Jan-2024 11:10:15 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[16-Jan-2024 11:10:15 UTC] SITE: Storing in option ast-block-templates-sites-7
+[16-Jan-2024 11:10:15 UTC] SITE: Completed request 7
+[16-Jan-2024 11:10:15 UTC] Sync process for Gutenberg Blocks is done.
+[16-Jan-2024 11:10:15 UTC] BLOCK: Getting Server Custimizer CSS
+[16-Jan-2024 11:10:15 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[16-Jan-2024 11:13:37 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[16-Jan-2024 11:13:37 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[16-Jan-2024 11:58:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Cartflows_Ca_Tracking::wcf_ca_update_order_status(), 1 passed in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 324 and exactly 3 expected in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woo-cart-abandonment-recovery/modules/cart-abandonment/classes/class-cartflows-ca-tracking.php:187
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Cartflows_Ca_Tracking->wcf_ca_update_order_status('')
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php(148): do_action('woocommerce_ord...')
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-admin/includes/plugin.php(2318): include_once('/home/mhmd/Loca...')
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-a in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woo-cart-abandonment-recovery/modules/cart-abandonment/classes/class-cartflows-ca-tracking.php on line 187

@@ -1,0 +1,16 @@
+2024-01-17T07:32:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woo_order_status_change_custom(), 1 passed in /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php on line 326 and exactly 3 expected in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(287) : eval()'d code:1
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(4391)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4391, 'completed', 'refunded', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-ord in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(287) : eval()'d code on line 1
+
+2024-01-17T07:34:04+00:00 CRITICAL Uncaught Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/lib/Doctrine/ConnectionFactory.php:85
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/lib/Doctrine/ConnectionFactory.php(45): MailPoet\Doctrine\ConnectionFactory->getDriverOptions('+00:00', 'utf8mb4', 'utf8mb4_unicode...')
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(618): MailPoet\Doctrine\ConnectionFactory->createConnection()
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(3188): MailPoetGenerated\FreeCachedContainer->getConnectionService()
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(628): MailPoetGenerated\FreeCachedContainer->getEntityManagerFactoryService()
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.ph in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/lib/Doctrine/ConnectionFactory.php on line 85
+
