@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/zakat/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/zakat/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/zakat/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/zakat/vendor/google/apiclient-services" />
+      <path value="$PROJECT_DIR$/zakat/vendor/google/apiclient" />
+      <path value="$PROJECT_DIR$/zakat/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/zakat/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/zakat/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/zakat/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/zakat/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/zakat/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/zakat/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/zakat/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/zakat/vendor/composer" />
+      <path value="$PROJECT_DIR$/zakat/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/zakat/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/zakat/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/zakat/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/zakat/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/jetpack/vendor/automattic/jetpack-backup" />
+      <path value="$PROJECT_DIR$/jetpack/vendor/automattic/jetpack-sync" />
+      <path value="$PROJECT_DIR$/jetpack/vendor/composer" />
+      <path value="$PROJECT_DIR$/jetpack/vendor/scssphp/scssphp" />
+      <path value="$PROJECT_DIR$/jetpack/vendor/automattic/jetpack-plans" />
+      <path value="$PROJECT_DIR$/jetpack/vendor/wikimedia/aho-corasick" />
+      <path value="$PROJECT_DIR$/jetpack/vendor/automattic/jetpack-roles" />
+      <path value="$PROJECT_DIR$/jetpack/vendor/automattic/jetpack-connection" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

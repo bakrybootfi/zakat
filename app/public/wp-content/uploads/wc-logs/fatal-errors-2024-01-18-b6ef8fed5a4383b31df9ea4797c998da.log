@@ -1,0 +1,12 @@
+2024-01-18T09:19:54+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 162
+
+2024-01-18T11:07:13+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 162
+
+2024-01-18T11:09:00+00:00 CRITICAL require(): Failed opening required '/home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 162
+
+2024-01-18T12:22:45+00:00 CRITICAL Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/vendor/composer/platform_check.php on line 24
+
+2024-01-18T12:23:17+00:00 CRITICAL Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/vendor/composer/platform_check.php on line 24
+
+2024-01-18T12:25:01+00:00 CRITICAL Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/vendor/composer/platform_check.php on line 24
+

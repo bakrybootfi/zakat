@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/astra-sites/inc/lib/gutenberg-templates" isTestSource="false" packagePrefix="Gutenberg_Templates" />
+      <sourceFolder url="file://$MODULE_DIR$/astra-sites/inc/lib/zip-ai" isTestSource="false" packagePrefix="ZipAI" />
+      <sourceFolder url="file://$MODULE_DIR$/cartflows/libraries/action-scheduler/classes" isTestSource="false" packagePrefix="Action_Scheduler" />
+      <sourceFolder url="file://$MODULE_DIR$/elementor/includes" isTestSource="false" packagePrefix="Elementor" />
+      <sourceFolder url="file://$MODULE_DIR$/elementor/includes/elements" isTestSource="false" packagePrefix="Elementor" />
+      <sourceFolder url="file://$MODULE_DIR$/elementor/includes/settings" isTestSource="false" packagePrefix="Elementor" />
+      <sourceFolder url="file://$MODULE_DIR$/mailpoet/generated" isTestSource="false" packagePrefix="MailPoetGenerated" />
+      <sourceFolder url="file://$MODULE_DIR$/mailpoet/lib" isTestSource="false" packagePrefix="MailPoet" />
+      <sourceFolder url="file://$MODULE_DIR$/mailpoet/lib-3rd-party" isTestSource="false" packagePrefix="MailPoetVendor" />
+      <sourceFolder url="file://$MODULE_DIR$/variation-swatches-woo" isTestSource="false" packagePrefix="CFVSW" />
+      <sourceFolder url="file://$MODULE_DIR$/woocommerce/packages/action-scheduler/classes" isTestSource="false" packagePrefix="Action_Scheduler" />
+      <sourceFolder url="file://$MODULE_DIR$/wpforms-lite/src" isTestSource="false" packagePrefix="WPForms" />
+      <excludeFolder url="file://$MODULE_DIR$/jetpack/vendor/automattic/jetpack-backup" />
+      <excludeFolder url="file://$MODULE_DIR$/jetpack/vendor/automattic/jetpack-connection" />
+      <excludeFolder url="file://$MODULE_DIR$/jetpack/vendor/automattic/jetpack-plans" />
+      <excludeFolder url="file://$MODULE_DIR$/jetpack/vendor/automattic/jetpack-roles" />
+      <excludeFolder url="file://$MODULE_DIR$/jetpack/vendor/automattic/jetpack-sync" />
+      <excludeFolder url="file://$MODULE_DIR$/jetpack/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/jetpack/vendor/scssphp/scssphp" />
+      <excludeFolder url="file://$MODULE_DIR$/jetpack/vendor/wikimedia/aho-corasick" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/google/apiclient" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/google/apiclient-services" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/google/auth" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/zakat/vendor/symfony/deprecation-contracts" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

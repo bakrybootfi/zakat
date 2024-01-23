@@ -14,3 +14,13 @@ Stack trace:
 #3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(628): MailPoetGenerated\FreeCachedContainer->getEntityManagerFactoryService()
 #4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/generated/FreeCachedContainer.ph in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/mailpoet/lib/Doctrine/ConnectionFactory.php on line 85
 
+2024-01-17T09:11:36+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat.php on line 148
+
+2024-01-17T09:13:36+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat.php on line 148
+
+2024-01-17T09:15:36+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat.php on line 148
+
+2024-01-17T09:17:36+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat.php on line 148
+
+2024-01-17T09:19:37+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat.php on line 148
+
