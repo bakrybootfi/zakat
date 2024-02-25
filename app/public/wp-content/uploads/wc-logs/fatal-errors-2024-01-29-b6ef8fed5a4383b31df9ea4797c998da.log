@@ -1,0 +1,235 @@
+2024-01-29T06:34:47+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on false in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:48
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(123)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'completed', 'processing', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#14 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#15 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#20 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 48
+
+2024-01-29T06:35:59+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on false in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:48
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(123)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'processing', 'on-hold', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#14 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#15 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#20 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 48
+
+2024-01-29T06:36:37+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on false in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:48
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(123)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'on-hold', 'completed', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#14 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#15 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#20 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 48
+
+2024-01-29T06:36:55+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on false in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:48
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(123)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'completed', 'on-hold', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#14 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#15 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#20 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 48
+
+2024-01-29T06:45:34+00:00 CRITICAL Uncaught Error: Call to a member function get_total_tax() on int in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:55
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(4418)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'completed', 'on-hold', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#14 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#15 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#20 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 55
+
+2024-01-29T07:09:47+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:21
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php(21): json_decode(Array, true)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(4418)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'completed', 'on-hold', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#14 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#15 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#21 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 21
+
+2024-01-29T07:51:18+00:00 CRITICAL Uncaught Error: Call to undefined function getdata() in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:20
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(4418)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'completed', 'on-hold', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#14 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#15 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#20 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 20
+
+2024-01-29T07:51:50+00:00 CRITICAL Uncaught Error: Call to undefined function ammar() in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:20
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(4418)
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'on-hold', 'completed', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#14 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#15 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#20 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 20
+
+2024-01-29T07:54:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ammar(), 0 passed in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 19 and exactly 1 expected in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php:51
+Stack trace:
+#0 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php(19): ammar()
+#1 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): woo_order_status_change_custom(4418)
+#2 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(421): do_action('woocommerce_ord...', 4418, 'on-hold', 'completed', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/class-wc-order.php(253): WC_Order->status_transition()
+#6 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(714): WC_Order->save()
+#7 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(4418)
+#8 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(303): do_action('woocommerce_pro...', 4418, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/Edit.php(152): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#12 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#13 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#14 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Admin/Orders/PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#15 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#16 /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#17 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#18 /home/mhmd/Local Sites/zakat/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#19 /home/mhmd/Local Sites/zakat/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /home/mhmd/Local Sites/zakat/app/public/wp-admin/admin.php(237): do_action('load-woocommerc...')
+#21 {main}
+  thrown in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 51
+
+2024-01-29T10:51:00+00:00 CRITICAL syntax error, unexpected token "try" in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 36
+
+2024-01-29T11:45:29+00:00 CRITICAL syntax error, unexpected token ")" in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 20
+
+2024-01-29T11:45:44+00:00 CRITICAL syntax error, unexpected token ")" in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 20
+
+2024-01-29T11:45:59+00:00 CRITICAL syntax error, unexpected token ")" in /home/mhmd/Local Sites/zakat/app/public/wp-content/plugins/zakat/zakat.php on line 20
+
